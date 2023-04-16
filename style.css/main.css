@@ -1,0 +1,685 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #F3F0EB;
+  margin-top: 15px;
+  font-family: 'Raleway';
+  font-style: normal;
+  
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.container {
+  max-width: 1280px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-nav {
+  display: none;
+}
+
+.logo {
+  font-family: 'Alkatra', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1C1C1C;
+}
+
+.hero-img {
+  width: 200px;
+  /* Ширина контейнера */
+  height: 200px;
+  /* Высота контейнера */
+  overflow: hidden;
+  /* Обрезать содержимое, которое выходит за границы контейнера */
+}
+
+.container img {
+  width: 100%;
+  /* Ширина изображения */
+  height: auto;
+  /* Автоматическая высота, чтобы сохранить пропорции */
+}
+
+
+
+
+.wrap-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-list-language {
+  margin-right: 0;
+  padding: 14px 31px;
+  background: linear-gradient(155.4deg, #D9D9D9 -3.14%, rgba(217, 217, 217, 0) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.wrap-hero{
+  position: relative;
+}
+.hero-text {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #565656;
+  margin-top: 60px;
+  margin-left: 95px;
+  z-index: 999;
+
+}
+.hero-img {
+  display: none;
+  position: absolute;
+  top:0;
+  right: 0;
+  rotate: 10deg;
+}
+
+
+
+.hero-title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+
+  text-transform: uppercase;
+  color: #3C3C3C;
+  margin-top: 45px;
+
+}
+
+.hero-title-secondstring {
+  color: #FF7262;
+  font-weight: 500;
+
+}
+
+.hero-second {
+  margin-top: 45px;
+  margin-left: 0;
+  max-width: 320px;
+}
+
+.hero-btn {
+  max-width: 140px;
+  margin-top: 20px;
+  float: right;
+  cursor: pointer;
+
+}
+
+.hero-arrow {
+  rotate: 180deg;
+  max-width: 50px;
+  margin-top: 80px;
+  float: right;
+  margin-right: 30px;
+}
+/******************** Про меня **********************/
+.wrap-about-me-left h2 {
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #FF7262;
+  margin-top: 220px;
+}
+
+.wrap-about-me-right {
+  position: relative;
+}
+
+.about-me-red-img {
+  position: absolute;
+  top: -195px;
+  right: 150px;
+}
+.about-me-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 290px;
+  font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+text-transform: uppercase;
+color: #1C1C1C;
+
+}
+.about-me-span{
+display: inline-block;
+font-weight: 600;
+}
+.about-me-text{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 150%;
+color: #565656;
+margin-bottom: 40px;
+min-width: 350px;
+}
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Выравнивание по центру */
+}
+
+img {
+  width: 100%; /* Чтобы изображения растягивались на всю ширину контейнера */
+  height: auto; /* Чтобы сохранялось соотношение сторон */
+  margin-bottom: 1rem; /* Между изображениями можно добавить небольшой отступ */
+}
+
+
+
+
+
+
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 3px solid #C8CDD6;
+
+
+
+}
+
+.slides{
+  display: none;
+}
+.gallery-container {
+  width: 100%;
+  overflow: hidden;
+}
+.gallary-img{
+ margin-bottom:40px ;
+}
+.wrap-price-left h2{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #FF7262;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.wrap-price-left{
+  position: relative;
+}
+.price-img{
+  position: absolute;
+  top: -170px;
+  left: -120px;
+}
+.price-text{
+  font-family: 'Raleway';
+font-style: italic;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #565656;
+margin-bottom: 20px;
+
+}
+
+
+.table-container {
+  overflow-x: auto; /* Добавляем горизонтальный скролл для маленьких экранов */
+}
+
+table {
+  width: 100%; /* Растягиваем таблицу на всю ширину родительского контейнера */
+  border-collapse: collapse; /* Объединяем границы ячеек */
+}
+
+th, td {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+color: #565656;
+  text-align: center;
+  padding: 0.5rem; /* Добавляем отступы для ячеек */
+  border-bottom: 1px solid #C8CDD6; /* Добавляем границы ячеек */
+}
+
+th {
+  font-weight: bold; /* Делаем заголовки жирными */
+}
+
+@media (min-width: 768px) {
+  /* Добавляем стили для больших экранов */
+  .table-container {
+    overflow-x: initial; /* Убираем горизонтальный скролл */
+  }
+}
+
+.price-btn{
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+
+
+
+.stage-work-main-title{
+  margin-top: 50px;
+  font-family: 'Raleway';
+  font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 100%;
+text-transform: uppercase;
+color: #FF7262;
+
+}
+.stage-work{
+  position: relative;
+ 
+}
+.stage-work-img{
+  max-width: 100%;
+position: absolute;
+top:-100px;
+left: -22px;
+
+rotate: 10deg;
+}
+.stage-work-list-wrap{
+  margin-top: 20px;
+}
+.stage-work-numbers{
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+font-size: 25px;
+line-height: 100%;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #FF7262;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.stage-work-title{
+ font-family: 'Raleway' ;
+  font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 100%;
+color: #1C1C1C;
+padding-bottom: 10px;
+
+}
+.stage-work-list-text{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+
+color: #565656;
+}
+.stage-work-span{
+  font-weight: 700;
+  display: inline-block;
+}
+.FAQ{
+  margin-top: 50px;
+  background: #F5F5F5;
+border-radius: 30px;
+padding: 20px;
+ 
+}
+.FAQ-title{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 140%;
+  
+  text-transform: uppercase;
+  
+  color: #3C3C3C;
+  margin-bottom: 20px;
+  
+}
+.FAQ-btn{
+  max-width: 140px;
+ 
+margin: 0 auto;
+display: block;
+
+
+  cursor: pointer;
+}
+.FAQ-list{
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  
+}
+.FAQ-list a{
+  text-decoration: none;
+  
+color: #FF7262;
+}
+.FAQ-list li{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 130%;
+
+
+}
+.FAQ-span{
+  display: inline-block;
+  color: #FF7262;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .gallery-item {
+    max-width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .gallery-item {
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
+.footer{
+  background-color: #1C1C1C;
+  
+
+  
+}
+.footer-name{
+  color: #F5F5F5;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.footer-name-link{
+  color: #F5F5F5;
+  text-decoration: none;
+}
+.footer-politic{
+  color: #F5F5F5;
+  font-size: 16px;
+  margin-top: 20px ;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+.footer-poliyic-link{
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .wrap-hero-title{
+    display: flex;
+  flex-direction: column;
+
+
+}
+.hero-text{
+  margin-left: 450px;
+
+
+
+}
+.hero-btn{
+  margin-right: 40px;
+}
+.hero-title-secondstring{
+  margin-left: 100px;
+}
+.hero-title-thirdstring{
+  display: inline-block;
+  margin-left: 180px;
+}
+.hero-title{
+  margin-left: 20px;
+  max-width: 500px;
+}
+.hero-second{
+  margin-left: 20px;
+}
+.stage-work-img{
+  display: none;
+}
+.about-me-title{
+  max-width: 600px;
+}
+  }
+  @media screen and (min-width: 820px) {
+    .hero-title-secondstring{
+      display: inline-block;
+    }
+    .hero-title-thirdstring{
+      display: inline-block;
+    }
+    
+    .about-me-title{
+      max-width: 600px;
+    }
+    .stage-work-img{
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1024px){
+    .header-nav {
+      display: flex;
+     
+    }
+    .header-nav ul{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+     
+      gap: 20px;
+      
+    }
+    .header-nav-list{
+      font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+
+text-align: center;
+
+color: #565656;
+    }
+
+    .header-language{
+      justify-content: right;
+    
+    }
+    .container{
+    max-width: 100%;
+  }
+.hero-text{
+  font-size: 20px;
+}
+.hero-title{
+  font-size: 100px;
+  line-height: 150%;
+  max-width: 100%;
+}
+.hero-title-secondstring{
+  margin-left: 100px;
+}
+}
+@media screen and (min-width: 1280px){
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .wrap-header{
+    margin-top: 40px;
+  }
+  .hero-text{
+ justify-content: end;
+ display: flex;
+ margin-right: 100px;
+  }
+.hero-second{
+
+  max-width: 560px;
+  
+}
+.wrap-hero-btn{
+  position: relative;
+  display: flex;
+justify-content: space-between;
+margin: 0 auto;
+}
+.hero-arrow{
+  position: absolute;
+right: 170px;
+}
+.wrap-about-me-left h2{
+  font-size: 50px;
+line-height: 100%;
+text-transform: uppercase;
+
+
+
+}
+.about-me{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  
+  
+}
+.wrap-about-me-right{
+  max-width: 450px;
+
+
+}
+.about-me-title{
+  margin-top: 0;
+  font-weight: 400;
+font-size: 30px;
+line-height: 140%;
+
+}
+.about-me-text{
+  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+color: #565656;
+max-width: 450px;
+}
+
+
+.controls {
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+}
+
+button {
+  font-size: 18px;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+}
+
+/* Слайдер */
+
+.slider {
+  margin: 0 auto;
+  width: 800px;
+  height: 450px;
+  background-color: rgb(182, 203, 222);
+}
+
+.hidden {
+  display: none;
+}
+
+.portfolio{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
